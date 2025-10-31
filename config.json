@@ -1,0 +1,133 @@
+{
+  "guildId": "1323266812024197140",
+  "ownerId": "174383448931172352",
+  "announcementChannelId": "1433151880414105790",
+  "logChannelId": "1426840044584566835",
+  "privateMatchCategoryId": "1335485679135621222",
+  "seasonOrder": [
+    "FILL_ME_TYPE_ORDER_1",
+    "FILL_ME_TYPE_ORDER_2",
+    "..."
+  ],
+  "permissions": {
+    "orderManagers": [
+      "ROLE_ID_LEAGUE_DIRECTOR",
+      "ROLE_ID_OWNER"
+    ],
+    "resultManagers": [
+      "ROLE_ID_LEAGUE_DIRECTOR",
+      "ROLE_ID_SENIOR_STAFF"
+    ]
+  },
+  "roles": {
+    "gymLeaderRoleId": "ROLE_ID_GYM_LEADER",
+    "rankRoles": {
+      "APEX": "ROLE_ID_RANK_APEX",
+      "S": "ROLE_ID_RANK_S",
+      "A": "ROLE_ID_RANK_A",
+      "B": "ROLE_ID_RANK_B",
+      "C": "ROLE_ID_RANK_C",
+      "D": "ROLE_ID_RANK_D",
+      "E": "ROLE_ID_RANK_E"
+    },
+    "winnerRolesByDefeatedRank": {
+      "APEX": "ROLE_ID_WINNER_APEX",
+      "S": "ROLE_ID_WINNER_S",
+      "A": "ROLE_ID_WINNER_A",
+      "B": "ROLE_ID_WINNER_B",
+      "C": "ROLE_ID_WINNER_C",
+      "D": "ROLE_ID_WINNER_D",
+      "E": "ROLE_ID_WINNER_E"
+    },
+    "loserRoleId": "ROLE_ID_LOSER"
+  },
+  "xpAwards": {
+    "APEX": 1000,
+    "S": 5000,
+    "A": 4000,
+    "B": 3000,
+    "C": 2000,
+    "D": 1500,
+    "E": 1000,
+    "LOSER": 500
+  },
+  "divisions": [
+    "Division 1",
+    "Division 2",
+    "Division 3"
+  ],
+  "types": [
+    {
+      "name": "Bug",
+      "roleId": "FILL_BUG"
+    },
+    {
+      "name": "Dark",
+      "roleId": "FILL_DARK"
+    },
+    {
+      "name": "Dragon",
+      "roleId": "FILL_DRAGON"
+    },
+    {
+      "name": "Electric",
+      "roleId": "FILL_ELECTRIC"
+    },
+    {
+      "name": "Fairy",
+      "roleId": "FILL_FAIRY"
+    },
+    {
+      "name": "Fighting",
+      "roleId": "FILL_FIGHTING"
+    },
+    {
+      "name": "Fire",
+      "roleId": "FILL_FIRE"
+    },
+    {
+      "name": "Flying",
+      "roleId": "FILL_FLYING"
+    },
+    {
+      "name": "Ghost",
+      "roleId": "FILL_GHOST"
+    },
+    {
+      "name": "Grass",
+      "roleId": "FILL_GRASS"
+    },
+    {
+      "name": "Ground",
+      "roleId": "FILL_GROUND"
+    },
+    {
+      "name": "Ice",
+      "roleId": "FILL_ICE"
+    },
+    {
+      "name": "Normal",
+      "roleId": "FILL_NORMAL"
+    },
+    {
+      "name": "Poison",
+      "roleId": "FILL_POISON"
+    },
+    {
+      "name": "Psychic",
+      "roleId": "FILL_PSYCHIC"
+    },
+    {
+      "name": "Rock",
+      "roleId": "FILL_ROCK"
+    },
+    {
+      "name": "Steel",
+      "roleId": "FILL_STEEL"
+    },
+    {
+      "name": "Water",
+      "roleId": "FILL_WATER"
+    }
+  ]
+}

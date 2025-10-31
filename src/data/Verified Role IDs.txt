@@ -1,0 +1,40 @@
+Verified Role IDs — Source of Truth
+====================================
+Place your final, verified role IDs here. The bot will load from this file first if present.
+
+Expected sections (one ID per line after the header label):
+
+[TYPE_ROLES]            # e.g., Normal, Ice, Fighting, ... in your canonical order
+<roleId for Type #1>
+<roleId for Type #2>
+...
+
+[RANK_ROLES]            # E, D, C, B, A, S, Apex (one per line, in ascending order)
+<roleId for E>
+<roleId for D>
+<roleId for C>
+<roleId for B>
+<roleId for A>
+<roleId for S>
+<roleId for Apex>
+
+[GYMLEADER_ROLE]        # single role ID for “Gym Leader”
+<roleId>
+
+[WINNER_RANK_ROLES]     # winner roles by defeated rank (E..A,S,Apex), one per line in same rank order
+<roleId for Winner-E>
+<roleId for Winner-D>
+<roleId for Winner-C>
+<roleId for Winner-B>
+<roleId for Winner-A>
+<roleId for Winner-S>
+<roleId for Winner-Apex>
+
+[LOSER_ROLE]            # single role ID for “Loser” participation XP role
+<roleId>
+
+Notes
+-----
+• If this file is missing, the bot falls back to config.json and name-based discovery.
+• You told me to “lock in the verified IDs” — this file is where they live for maximum stability.
+• You can paste your already-verified file here and restart. No code changes required.

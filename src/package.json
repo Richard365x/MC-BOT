@@ -1,0 +1,17 @@
+{
+  "name": "mc-bot",
+  "version": "3.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Mewtwo\u2019s Colosseum \u2014 Gym Circuit Bot (challenge flow + results + private battle channels + XP)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "register": "node src/registerCommands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
